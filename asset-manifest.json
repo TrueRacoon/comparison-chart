@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/comparison-chart/static/css/main.99028bad.css",
+    "main.js": "/comparison-chart/static/js/main.3a2d6999.js",
+    "static/js/787.1b9a2d71.chunk.js": "/comparison-chart/static/js/787.1b9a2d71.chunk.js",
+    "static/media/Samsung Galaxy A72.jpg": "/comparison-chart/static/media/Samsung Galaxy A72.0ca1a62053929a5368d4.jpg",
+    "static/media/Oneplus 9.jpg": "/comparison-chart/static/media/Oneplus 9.ba34acdb2c61d9b3431d.jpg",
+    "static/media/Realme 8 Pro.jpg": "/comparison-chart/static/media/Realme 8 Pro.f743f44940848a989793.jpg",
+    "static/media/Huawei P50.jpg": "/comparison-chart/static/media/Huawei P50.7748c6ace714e57c1134.jpg",
+    "static/media/Apple iPhone 12.jpg": "/comparison-chart/static/media/Apple iPhone 12.de91ce4e8bf3c128429b.jpg",
+    "static/media/Samsung Galaxy S21.jpg": "/comparison-chart/static/media/Samsung Galaxy S21.6dda0ca6d81558c05fea.jpg",
+    "static/media/Xiaomi Mi 11 Lite.jpg": "/comparison-chart/static/media/Xiaomi Mi 11 Lite.11e77ce22168c269c800.jpg",
+    "static/media/Apple iPhone Xr.jpg": "/comparison-chart/static/media/Apple iPhone Xr.89b4c6c13e5ecd02786a.jpg",
+    "static/media/user.svg": "/comparison-chart/static/media/user.cd5bb8031448c6162083.svg",
+    "static/media/swap.svg": "/comparison-chart/static/media/swap.12a587cb117839bcd95c.svg",
+    "index.html": "/comparison-chart/index.html",
+    "static/media/false.svg": "/comparison-chart/static/media/false.0113cea45ba9bac007d1.svg",
+    "static/media/true.svg": "/comparison-chart/static/media/true.39333c42cee51e5572bf.svg",
+    "static/media/expand-icon.svg": "/comparison-chart/static/media/expand-icon.575a3326f949895f3d86.svg",
+    "main.99028bad.css.map": "/comparison-chart/static/css/main.99028bad.css.map",
+    "main.3a2d6999.js.map": "/comparison-chart/static/js/main.3a2d6999.js.map",
+    "787.1b9a2d71.chunk.js.map": "/comparison-chart/static/js/787.1b9a2d71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99028bad.css",
+    "static/js/main.3a2d6999.js"
+  ]
+}

@@ -17,12 +17,12 @@ export default observer((): JSX.Element => {
 
   return (
     <div
-      className="GoodReplacementModal__background"
+      className="GoodReplacementModal"
       style={{ display: store.showModal ? 'flex' : 'none' }}
       onClick={() => handleModalClose()}
     >
       <div
-        className="GoodReplacementModal"
+        className="GoodReplacementModal__content"
         onClick={(e) => e.stopPropagation()}
       >
         {store.goods.length - store.displayedGoodsIds.length > 3 && <FilterInput />}

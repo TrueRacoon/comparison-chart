@@ -1,0 +1,23 @@
+.SpecsRow {
+  display: flex;
+  border-top: 1px solid #CDCFD2;
+  line-height: 21px;
+}
+
+.SpecsRow__name {
+  color: #A4A9B9;
+  text-transform: uppercase;
+  min-width: 285px;
+  max-width: 285px;
+  padding: 20px;
+  position: sticky;
+  background-color: #F4F9FC;
+  left: 0;
+}
+
+.SpecsRow__spec {
+  min-width: 285px;
+  max-width: 285px;
+  padding-right: 30px;
+  margin: auto 0;
+}

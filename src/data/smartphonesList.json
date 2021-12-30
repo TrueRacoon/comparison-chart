@@ -1,0 +1,134 @@
+{
+  "category": "smartphones",
+  "categoryName": "Смартфоны",
+  "goods": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 12",
+      "specifications": {
+        "brand": "Apple",
+        "year": "2020",
+        "diagonal": "6,1",
+        "country": "Китай",
+        "rom": "128 Гб",
+        "screenFrequency": "60 Гц",
+        "nfc": false,
+        "esim": true,
+        "qi": true,
+        "price": "81 990 ₽"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Xiaomi Mi 11 Lite",
+      "specifications": {
+        "brand": "Xiaomi",
+        "year": "2021",
+        "diagonal": "6,55",
+        "country": "Китай",
+        "rom": "128 Гб",
+        "screenFrequency": "90 Гц",
+        "nfc": true,
+        "esim": true,
+        "qi": false,
+        "price": "27 490 ₽"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Samsung Galaxy A72",
+      "specifications": {
+        "brand": "Samsung",
+        "year": "2021",
+        "diagonal": "6,7",
+        "country": "Вьетнам",
+        "rom": "128 Гб",
+        "screenFrequency": "90 Гц",
+        "nfc": true,
+        "esim": false,
+        "qi": true,
+        "price": "32 890 ₽"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy S21",
+      "specifications": {
+        "brand": "Samsung",
+        "year": "2020",
+        "diagonal": "6,4",
+        "country": "Китай",
+        "rom": "256 Гб",
+        "screenFrequency": "90 Гц",
+        "nfc": true,
+        "esim": true,
+        "qi": true,
+        "price": "99 990 ₽"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Apple iPhone Xr",
+      "specifications": {
+        "brand": "Apple",
+        "year": "2020",
+        "diagonal": "5,8",
+        "country": "Китай",
+        "rom": "128 Гб",
+        "screenFrequency": "60 Гц",
+        "nfc": false,
+        "esim": true,
+        "qi": true,
+        "price": "95 990 ₽"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Realme 8 Pro",
+      "specifications": {
+        "brand": "Realme",
+        "year": "2020",
+        "diagonal": "6,7",
+        "country": "Китай",
+        "rom": "256 Гб",
+        "screenFrequency": "90 Гц",
+        "nfc": true,
+        "esim": true,
+        "qi": true,
+        "price": "69 990 ₽"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Oneplus 9",
+      "specifications": {
+        "brand": "Oneplus",
+        "year": "2021",
+        "diagonal": "6,5",
+        "country": "Китай",
+        "rom": "512 Гб",
+        "screenFrequency": "120 Гц",
+        "nfc": true,
+        "esim": true,
+        "qi": true,
+        "price": "99 990 ₽"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Huawei P50",
+      "specifications": {
+        "brand": "Huawei",
+        "year": "2021",
+        "diagonal": "6,3",
+        "country": "Китай",
+        "rom": "256 Гб",
+        "screenFrequency": "120 Гц",
+        "nfc": true,
+        "esim": true,
+        "qi": true,
+        "price": "86 990 ₽"
+      }
+    }
+  ]
+}

@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import { observer } from 'mobx-react';
+import store from './stores/store';
 import './App.css';
+import GoodsPerPageSelector from './components/GoodsPerPageSelector/GoodsPerPageSelector';
+import { autorun } from 'mobx';
+import SpecsTable from './components/SpecsTable/SpecsTable';
+import ShowDifferencesCheckbox from './components/ShowDifferencesCheckbox/ShowDifferencesCheckbox';
+import GoodCards from './components/GoodCards/GoodCards';
 
-function App() {
+const App: React.FC = observer((): JSX.Element => {
+  useEffect(() => {
+    store.initStore();
+  }, []);
+
+  useEffect(() =>
+    autorun(() => {
+      console.log(store.goods)
+    }), []
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App__category-and-goods-per-page-selector">
+        <div className="App__category">
+          {store.categoryName}
+        </div>
+        <GoodsPerPageSelector />
+      </div>
+      <div className="App__comparison-table">
+        <div className="App__show-difference-checkbox-and-good-cards">
+          <div className="App__show-difference-checkbox-container">
+            <ShowDifferencesCheckbox />
+          </div>
+          <GoodCards />
+        </div>
+        <SpecsTable />
+      </div>
     </div>
   );
-}
+})
 
 export default App;

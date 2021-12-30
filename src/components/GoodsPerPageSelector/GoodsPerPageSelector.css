@@ -1,0 +1,24 @@
+.GoodsPerPageSelector {
+  color: #0D5ADC;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  /*position: fixed;*/
+  /*left: 166px;*/
+  /*top: 60px;*/
+}
+
+@media (min-width: 1000px) {
+  .GoodsPerPageSelector {
+
+  }
+}
+
+.GoodsPerPageSelector__label {
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.GoodsPerPageSelector__label_active {
+  cursor: default;
+  border-bottom: 1px solid #0D5ADC;
+}

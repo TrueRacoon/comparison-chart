@@ -1,0 +1,66 @@
+.GoodReplacementModal__background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GoodReplacementModal {
+  background-color: white;
+  box-shadow: 0 16px 32px rgba(35, 39, 51, 0.1);
+  border-radius: 4px;
+  border: 1px solid #E3E3E3;
+  min-width: fit-content;
+  max-width: 421px;
+  padding: 18px;
+}
+
+.GoodReplacementModal__goods {
+  overflow-y: auto;
+  max-height: 260px;
+}
+
+.GoodReplacementModal__goods::-webkit-scrollbar {
+  width: 20px;
+}
+
+.GoodReplacementModal__goods::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 100px;
+}
+
+.GoodReplacementModal__goods::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 7px solid transparent;
+  background-clip: content-box;
+  background-color: #E3E3E3;;
+}
+
+.GoodReplacementModal__label {
+  margin-top: 16px;
+}
+
+.GoodReplacementModal__good {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.GoodReplacementModal__swap-button {
+  width: 20px;
+  height: 20px;
+  background: transparent url('../../icons/swap.svg') center border-box;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.GoodReplacementModal__image {
+  height: 50px;
+  margin-right: 10px;
+}

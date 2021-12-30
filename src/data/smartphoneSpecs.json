@@ -1,0 +1,44 @@
+{
+  "specifications": [
+    {
+      "name": "brand",
+      "localName": "Производитель"
+    },
+    {
+      "name": "year",
+      "localName": "Год релиза"
+    },
+    {
+      "name": "diagonal",
+      "localName": "Диагональ экрана (дюйм)"
+    },
+    {
+      "name": "country",
+      "localName": "Страна-производитель"
+    },
+    {
+      "name": "rom",
+      "localName": "Объем памяти"
+    },
+    {
+      "name": "screenFrequency",
+      "localName": "Частота обновления экрана"
+    },
+    {
+      "name": "nfc",
+      "localName": "NFC"
+    },
+    {
+      "name": "esim",
+      "localName": "Поддержка eSIM"
+    },
+    {
+      "name": "qi",
+      "localName": "Поддержка беспроводной зарядки"
+    },
+    {
+      "name": "price",
+      "localName": "Стоимость"
+    }
+  ]
+}

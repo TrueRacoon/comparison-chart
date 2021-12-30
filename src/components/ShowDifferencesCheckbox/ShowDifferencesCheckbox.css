@@ -1,0 +1,53 @@
+.ShowDifferencesCheckbox {
+  display: flex;
+  position: relative;
+  padding-left: 55px;
+  cursor: pointer;
+  height: 24px;
+  min-width: 255px;
+  max-width: 255px;
+  margin-right: 30px;
+  align-items: center;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  color: #0D5ADC;
+  user-select: none;
+}
+
+.ShowDifferencesCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.ShowDifferencesCheckbox__checkmark {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 24px;
+  width: 24px;
+  border: 2px solid #C1C1C2;
+  border-radius: 4px;
+}
+
+.ShowDifferencesCheckbox__checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.ShowDifferencesCheckbox input:checked ~ .ShowDifferencesCheckbox__checkmark:after {
+  display: block;
+}
+
+.ShowDifferencesCheckbox .ShowDifferencesCheckbox__checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #3B4157;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

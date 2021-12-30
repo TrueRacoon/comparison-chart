@@ -1,0 +1,15 @@
+.FilterInput {
+  width: 100%;
+  height: 47px;
+  border: 1px solid #C1C1C1;
+  border-radius: 4px;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding: 10px 37px 9px 16px;
+  outline: none;
+}
+
+.FilterInput::placeholder {
+  color: #C1C1C1;
+}

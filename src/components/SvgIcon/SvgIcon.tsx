@@ -5,7 +5,7 @@ interface ISvgIconProps {
   icon: Icon;
 }
 
-export default (({ icon }: ISvgIconProps): JSX.Element | null => {
+const SvgIcon = (({ icon }: ISvgIconProps): JSX.Element | null => {
   return (
     <img
       src={require(`../../icons/${icon}.svg`)}
@@ -13,3 +13,5 @@ export default (({ icon }: ISvgIconProps): JSX.Element | null => {
     />
   );
 });
+
+export default SvgIcon;

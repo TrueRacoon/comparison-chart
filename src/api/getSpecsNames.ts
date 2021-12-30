@@ -6,7 +6,7 @@ interface ISpecsNamesResponse {
   data: ISpecNames;
 }
 
-export default (): Promise<ISpecsNamesResponse> => (
+const getSpecsNames = (): Promise<ISpecsNamesResponse> => (
   new Promise<ISpecsNamesResponse>((resolve) => {
     resolve({
       status: 200,
@@ -14,3 +14,5 @@ export default (): Promise<ISpecsNamesResponse> => (
     });
   })
 );
+
+export default getSpecsNames;

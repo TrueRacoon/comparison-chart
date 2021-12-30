@@ -6,7 +6,7 @@ interface IGoodsResponse {
   data: IGoods;
 }
 
-export default (): Promise<IGoodsResponse> => (
+const getGoods = (): Promise<IGoodsResponse> => (
   new Promise<IGoodsResponse>((resolve) => {
     resolve({
       status: 200,
@@ -14,3 +14,5 @@ export default (): Promise<IGoodsResponse> => (
     });
   })
 );
+
+export default getGoods;

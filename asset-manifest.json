@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/comparison-chart/static/css/main.bfce519f.css",
-    "main.js": "/comparison-chart/static/js/main.3a2d6999.js",
+    "main.css": "/comparison-chart/static/css/main.4b75b635.css",
+    "main.js": "/comparison-chart/static/js/main.b5fd01dd.js",
     "static/js/787.1b9a2d71.chunk.js": "/comparison-chart/static/js/787.1b9a2d71.chunk.js",
     "static/media/Samsung Galaxy A72.jpg": "/comparison-chart/static/media/Samsung Galaxy A72.0ca1a62053929a5368d4.jpg",
     "static/media/Oneplus 9.jpg": "/comparison-chart/static/media/Oneplus 9.ba34acdb2c61d9b3431d.jpg",
@@ -17,12 +17,12 @@
     "static/media/false.svg": "/comparison-chart/static/media/false.0113cea45ba9bac007d1.svg",
     "static/media/true.svg": "/comparison-chart/static/media/true.39333c42cee51e5572bf.svg",
     "static/media/expand-icon.svg": "/comparison-chart/static/media/expand-icon.575a3326f949895f3d86.svg",
-    "main.bfce519f.css.map": "/comparison-chart/static/css/main.bfce519f.css.map",
-    "main.3a2d6999.js.map": "/comparison-chart/static/js/main.3a2d6999.js.map",
+    "main.4b75b635.css.map": "/comparison-chart/static/css/main.4b75b635.css.map",
+    "main.b5fd01dd.js.map": "/comparison-chart/static/js/main.b5fd01dd.js.map",
     "787.1b9a2d71.chunk.js.map": "/comparison-chart/static/js/787.1b9a2d71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfce519f.css",
-    "static/js/main.3a2d6999.js"
+    "static/css/main.4b75b635.css",
+    "static/js/main.b5fd01dd.js"
   ]
 }

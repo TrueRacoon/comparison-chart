@@ -2,15 +2,6 @@
   color: #0D5ADC;
   font-weight: normal;
   letter-spacing: 0.02em;
-  /*position: fixed;*/
-  /*left: 166px;*/
-  /*top: 60px;*/
-}
-
-@media (min-width: 1000px) {
-  .GoodsPerPageSelector {
-
-  }
 }
 
 .GoodsPerPageSelector__label {

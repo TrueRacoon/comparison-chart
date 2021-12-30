@@ -8,8 +8,12 @@
   justify-content: space-between;
   line-height: 60px;
   max-width: 1110px;
-  padding: 0 20px;
+  padding: 164px 20px 0 20px;
   margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .App__category {
@@ -21,15 +25,15 @@
 .App__comparison-table {
   margin: 0 auto;
   width: fit-content;
+  padding-top: 261px;
 }
 
 .App__show-difference-checkbox-and-good-cards {
   display: flex;
   align-items: flex-end;
   background-color: white;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 77px 0;
   width: fit-content;
-  margin-bottom: 57px;
 
   position: sticky;
   top: 0;

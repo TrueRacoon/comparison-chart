@@ -6,6 +6,7 @@ import GoodsPerPageSelector from './components/GoodsPerPageSelector/GoodsPerPage
 import SpecsTable from './components/SpecsTable/SpecsTable';
 import ShowDifferencesCheckbox from './components/ShowDifferencesCheckbox/ShowDifferencesCheckbox';
 import GoodCards from './components/GoodCards/GoodCards';
+import Header from './components/Header/Header';
 
 const App: React.FC = observer((): JSX.Element => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const App: React.FC = observer((): JSX.Element => {
 
   return (
     <div className="App">
+      <Header />
       <div className="App__category-and-goods-per-page-selector">
         <div className="App__category">
           {store.categoryName}

@@ -8,13 +8,20 @@ const defaultGoodsPerPage = 3;
 
 class Store {
   goods: IGood[] = [];
-  categoryName = "";
+
+  categoryName = '';
+
   specsNames: ISpecName[] = [];
+
   displayedGoodsIds: string[] = [];
+
   showOnlyDifferences = false;
+
   showModal = false;
+
   goodIdForReplacement: string | null = null;
-  filterText = "";
+
+  filterText = '';
 
   constructor() {
     makeAutoObservable(this);
@@ -32,34 +39,38 @@ class Store {
       const specsNamesResponse = await getSpecsNames();
       runInAction(() => {
         this.specsNames = specsNamesResponse.data.specifications;
-      })
+      });
     } catch (e) {
       runInAction(() => {
+        // eslint-disable-next-line no-console
         console.error('Error while store initializing');
-      })
+      });
     } finally {
-      for (let i = 0; i < this.goods.length && this.displayedGoodsIds.length < defaultGoodsPerPage; i++) {
+      for (
+        let i = 0;
+        i < this.goods.length && this.displayedGoodsIds.length < defaultGoodsPerPage;
+        i += 1
+      ) {
         this.displayedGoodsIds.push(this.goods[i].id);
-        console.log('init pushed')
-        console.log('now displayed goods:')
-        console.log(this.displayedGoodsIds);
       }
     }
   }
 
   handleGoodsPerPage(goodsPerPage: number) {
     if (goodsPerPage > this.displayedGoodsIds.length) {
-      for (let i = 0; i < this.goods.length && this.displayedGoodsIds.length < goodsPerPage; i++) {
+      for (
+        let i = 0;
+        i < this.goods.length && this.displayedGoodsIds.length < goodsPerPage;
+        i += 1
+      ) {
         if (!this.displayedGoodsIds.includes(this.goods[i].id)) {
           this.displayedGoodsIds.push(this.goods[i].id);
         }
-        console.log('pushed')
       }
     }
     if (goodsPerPage < this.displayedGoodsIds.length) {
       this.displayedGoodsIds = this.displayedGoodsIds.slice(0, goodsPerPage);
     }
-    console.log(this.displayedGoodsIds);
   }
 
   get goodsToShow() {
@@ -84,10 +95,8 @@ class Store {
   }
 
   get filteredReplacementGoods() {
-    return this.goods.filter((good) =>
-      !(this.displayedGoodsIds.includes(good.id))
-      && good.name.includes(this.filterText)
-    );
+    return this.goods.filter((good) => !(this.displayedGoodsIds.includes(good.id))
+      && good.name.includes(this.filterText));
   }
 
   replaceGood(replacementGoodId: string) {
@@ -95,13 +104,12 @@ class Store {
       return;
     }
 
-    let index = this.displayedGoodsIds.indexOf(this.goodIdForReplacement);
+    const index = this.displayedGoodsIds.indexOf(this.goodIdForReplacement);
 
+    // eslint-disable-next-line no-bitwise
     if (~index) {
       this.displayedGoodsIds[index] = replacementGoodId;
     }
-
-    console.log(this.displayedGoodsIds);
   }
 }
 

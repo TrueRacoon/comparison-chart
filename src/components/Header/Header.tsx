@@ -14,7 +14,9 @@ function Header(): JSX.Element {
           Сравнение
         </div>
         <div className="Header__profile">
-          Личный кабинет
+          <div className="Header__profile-label">
+            Личный кабинет
+          </div>
           <div className="Header__profile-icon">
             <SvgIcon icon={Icon.User} />
           </div>

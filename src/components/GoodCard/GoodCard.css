@@ -23,3 +23,23 @@
   border-style: none;
   cursor: pointer;
 }
+
+@media (hover: none) {
+  .GoodCard {
+    align-items: unset;
+    max-width: unset;
+    min-width: unset;
+    padding-right: unset;
+    width: 100%;
+  }
+
+  .GoodCard + .GoodCard {
+    padding-left: 10px;
+  }
+
+  .GoodCard__image {
+    height: unset;
+    max-height: 80px;
+    max-width: 80px;
+  }
+}

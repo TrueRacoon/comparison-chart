@@ -13,3 +13,9 @@
   cursor: default;
   border-bottom: 1px solid #0D5ADC;
 }
+
+@media (hover: none) {
+  .GoodsPerPageSelector {
+    display: none;
+  }
+}

@@ -51,3 +51,13 @@
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+
+@media (hover: none) {
+  .ShowDifferencesCheckbox {
+    padding-left: 35px;
+  }
+
+  .ShowDifferencesCheckbox__checkmark {
+    left: 0;
+  }
+}

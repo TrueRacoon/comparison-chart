@@ -42,3 +42,37 @@
   margin-left: 19px;
   padding: 40px 0;
 }
+
+@media (hover: none) {
+  .Header {
+    border-bottom: none;
+    position: relative;
+    max-width: unset;
+    height: 40px;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .Header::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #A6A5A9;
+  }
+
+  .Header__profile {
+    margin-left: 10px;
+  }
+
+  .Header__profile-label {
+    display: none;
+  }
+
+  .Header__profile-icon {
+    margin-left: 10px;
+  }
+}

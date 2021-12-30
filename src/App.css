@@ -50,3 +50,32 @@
   align-items: flex-end;
   z-index: 3;
 }
+
+@media (hover: none) {
+  .App__category-and-goods-per-page-selector {
+    line-height: unset;
+    max-width: unset;
+    position: unset;
+    padding: 10px 10px 0;
+  }
+
+  .App__category {
+    font-size: 24px;
+  }
+
+  .App__comparison-table {
+    padding-top: unset;
+    width: unset;
+  }
+
+  .App__show-difference-checkbox-and-good-cards {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #CDCFD2;
+  }
+
+  .App__show-difference-checkbox-container {
+    height: unset;
+  }
+}

@@ -2,3 +2,10 @@
   width: fit-content;
   background-color: #F4F9FC;
 }
+
+@media (hover: none) {
+  .SpecsTable {
+    width: 100%;
+  }
+}
+

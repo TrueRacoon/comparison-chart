@@ -21,3 +21,34 @@
   padding-right: 30px;
   margin: auto 0;
 }
+
+@media (hover: none) {
+  .SpecsRow {
+    flex-wrap: wrap;
+    border-top: unset;
+  }
+
+  .SpecsRow + .SpecsRow {
+    border-top: 1px solid #CDCFD2;
+  }
+
+  .SpecsRow__name {
+    max-width: unset;
+    min-width: unset;
+    position: unset;
+    left: unset;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  .SpecsRow__spec {
+    max-width: unset;
+    min-width: unset;
+    flex: 1;
+    display: inline-block;
+    padding: 0 10px 10px;
+    font-size: 16px;
+  }
+}

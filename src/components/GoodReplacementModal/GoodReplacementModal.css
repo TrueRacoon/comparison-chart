@@ -20,6 +20,10 @@
   padding: 18px;
 }
 
+.GoodReplacementModal__label {
+  margin-top: 16px;
+}
+
 .GoodReplacementModal__goods {
   overflow-y: auto;
   max-height: 260px;
@@ -39,10 +43,6 @@
   border: 7px solid transparent;
   background-clip: content-box;
   background-color: #E3E3E3;;
-}
-
-.GoodReplacementModal__label {
-  margin-top: 16px;
 }
 
 .GoodReplacementModal__good {

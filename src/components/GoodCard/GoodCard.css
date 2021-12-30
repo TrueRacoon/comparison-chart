@@ -12,14 +12,14 @@
   align-items: center;
 }
 
+.GoodCard__image {
+  height: 120px;
+}
+
 .GoodCard__expand-button {
   width: 19px;
   height: 9px;
   background: transparent url('../../icons/expand-icon.svg') center border-box;
   border-style: none;
   cursor: pointer;
-}
-
-.GoodCard__image {
-  height: 120px;
 }

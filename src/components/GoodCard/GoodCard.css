@@ -43,3 +43,15 @@
     max-width: 80px;
   }
 }
+
+@media (hover: none) and (min-width: 411px) {
+  .GoodCard + .GoodCard {
+    padding-left: 20px;
+  }
+}
+
+@media (hover: none) and (min-width: 768px) {
+  .GoodCard + .GoodCard {
+    padding-left: 30px;
+  }
+}

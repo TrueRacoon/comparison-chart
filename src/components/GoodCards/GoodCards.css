@@ -11,3 +11,9 @@
     width: 100%;
   }
 }
+
+@media (hover: none) and (min-width: 411px) {
+  .GoodCards {
+    padding-top: 20px;
+  }
+}

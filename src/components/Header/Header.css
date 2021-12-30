@@ -65,7 +65,7 @@
   }
 
   .Header__profile {
-    margin-left: 10px;
+    margin-left: unset;
   }
 
   .Header__profile-label {
@@ -74,5 +74,27 @@
 
   .Header__profile-icon {
     margin-left: 10px;
+  }
+}
+
+@media (hover: none) and (min-width: 411px) {
+  .Header {
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .Header__profile-icon {
+    margin-left: 20px;
+  }
+}
+
+@media (hover: none) and (min-width: 768px) {
+  .Header {
+    height: 80px;
+    padding: 0 30px;
+  }
+
+  .Header__profile-icon {
+    margin-left: 30px;
   }
 }

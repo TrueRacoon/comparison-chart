@@ -79,3 +79,23 @@
     height: unset;
   }
 }
+
+@media (hover: none) and (min-width: 411px) {
+  .App__category-and-goods-per-page-selector {
+    padding: 20px 20px 0;
+  }
+
+  .App__show-difference-checkbox-and-good-cards {
+    padding: 20px;
+  }
+}
+
+@media (hover: none) and (min-width: 768px) {
+  .App__category-and-goods-per-page-selector {
+    padding: 20px 30px 0;
+  }
+
+  .App__show-difference-checkbox-and-good-cards {
+    padding: 20px 30px;
+  }
+}

@@ -52,3 +52,24 @@
     font-size: 16px;
   }
 }
+
+@media (hover: none) and (min-width: 411px) {
+  .SpecsRow__name {
+    padding: 20px;
+  }
+
+  .SpecsRow__spec {
+    padding: 0 20px 20px;
+    font-size: unset;
+  }
+}
+
+@media (hover: none) and (min-width: 768px) {
+  .SpecsRow__name {
+    padding: 20px 30px;
+  }
+
+  .SpecsRow__spec {
+    padding: 0 30px 20px;
+  }
+}

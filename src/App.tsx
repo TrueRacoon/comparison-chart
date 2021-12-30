@@ -3,7 +3,6 @@ import { observer } from 'mobx-react';
 import store from './stores/store';
 import './App.css';
 import GoodsPerPageSelector from './components/GoodsPerPageSelector/GoodsPerPageSelector';
-import { autorun } from 'mobx';
 import SpecsTable from './components/SpecsTable/SpecsTable';
 import ShowDifferencesCheckbox from './components/ShowDifferencesCheckbox/ShowDifferencesCheckbox';
 import GoodCards from './components/GoodCards/GoodCards';
@@ -12,12 +11,6 @@ const App: React.FC = observer((): JSX.Element => {
   useEffect(() => {
     store.initStore();
   }, []);
-
-  useEffect(() =>
-    autorun(() => {
-      console.log(store.goods)
-    }), []
-  );
 
   return (
     <div className="App">
@@ -38,6 +31,6 @@ const App: React.FC = observer((): JSX.Element => {
       </div>
     </div>
   );
-})
+});
 
 export default App;

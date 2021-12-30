@@ -8,12 +8,12 @@ export default observer((): JSX.Element => {
   const handleReplaceButtonClick = (id: string) => {
     store.replaceGood(id);
     store.setShowModal(false);
-  }
+  };
 
   const handleModalClose = () => {
     store.setShowModal(false);
     store.setFilterText('');
-  }
+  };
 
   return (
     <div
@@ -40,20 +40,20 @@ export default observer((): JSX.Element => {
                 key={good.id}
                 className="GoodReplacementModal__good"
               >
-              <button
-                className="GoodReplacementModal__swap-button"
-                type="button"
-                onClick={() => handleReplaceButtonClick(good.id)}
-              />
-              <img
-                className="GoodReplacementModal__image"
-                src={require(`../../images/${good.name}.jpg`)}
-                alt=""
-              />
-              <div>
-                {good.name}
+                <button
+                  className="GoodReplacementModal__swap-button"
+                  type="button"
+                  onClick={() => handleReplaceButtonClick(good.id)}
+                />
+                <img
+                  className="GoodReplacementModal__image"
+                  src={require(`../../images/${good.name}.jpg`)}
+                  alt=""
+                />
+                <div>
+                  {good.name}
+                </div>
               </div>
-            </div>
             ))
           }
         </div>

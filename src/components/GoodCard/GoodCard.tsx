@@ -12,7 +12,7 @@ export default observer(({ good }: IGoodCardProps): JSX.Element | null => {
   const handleReplaceButtonClick = (id: string) => {
     store.setShowModal(true);
     store.setGoodIdForReplacement(id);
-  }
+  };
 
   return (
     <div

@@ -1,3 +1,4 @@
+/* eslint-disable */
 enum Icon {
   True = 'true',
   False = 'false',

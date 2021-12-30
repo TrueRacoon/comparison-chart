@@ -5,15 +5,13 @@ import GoodReplacementModal from '../GoodReplacementModal/GoodReplacementModal';
 import GoodCard from '../GoodCard/GoodCard';
 import './GoodCards.css';
 
-export default observer((): JSX.Element | null => {
-  return (
-    <div className="GoodCards">
-      {
-        store.goodsToShow.map((good) => (
-          <GoodCard key={good.id} good={good} />
-        ))
-      }
-      <GoodReplacementModal />
-    </div>
-  );
-});
+export default observer((): JSX.Element | null => (
+  <div className="GoodCards">
+    {
+      store.goodsToShow.map((good) => (
+        <GoodCard key={good.id} good={good} />
+      ))
+    }
+    <GoodReplacementModal />
+  </div>
+));
